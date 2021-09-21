@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Nav from '../../src/components/Nav/index';
-import testCommonLink from '../utils/testCommons';
+import Nav from './Nav';
+import testCommonLink from '../test-utils';
 
 jest.mock('react-i18next', () => ({
   useTranslation: () => ({ t: (key) => key }),

@@ -1,12 +1,12 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import App from '../../src/pages/index';
+import App from './index';
 import {
   OPENSEA_DIRECT_LINK_PREFIX,
   ETHER_SCAN_LINK_PREFIX,
   SITE_URL,
-} from '../../src/utils/DeveloperDaoConstants';
-import { ownedDeveloperNFT, unownedDeveloperNFT } from '../mocks/DeveloperNFT';
+} from '../utils/DeveloperDaoConstants';
+import { ownedDeveloperNFT, unownedDeveloperNFT } from '../test-data';
 
 jest.mock('react-i18next', () => ({
   useTranslation: () => ({ t: (key) => key }),

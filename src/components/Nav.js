@@ -2,8 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import { Box, Flex, chakra, HStack } from '@chakra-ui/react';
-import { IconGitHub } from '../Icons';
-import Logo from '../Logo';
+import { IconGitHub } from './Icons';
+import Logo from './Logo';
 
 function Nav() {
   const { t } = useTranslation();

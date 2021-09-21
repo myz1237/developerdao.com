@@ -20,7 +20,7 @@ import {
 import { LinkIcon } from '@chakra-ui/icons';
 import Logo from '../components/Logo';
 import PageLayout from '../layout/Page';
-import DevName from '../components/Search/Dev/DevName';
+import DevName from '../components/DevName';
 
 function App() {
   const { t } = useTranslation();

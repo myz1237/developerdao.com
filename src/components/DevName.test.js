@@ -1,12 +1,9 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import DevName from '../../../src/components/Search/Dev/DevName';
-import { OPENSEA_DIRECT_LINK_PREFIX } from '../../../src/utils/DeveloperDaoConstants';
-import testCommonLink from '../../utils/testCommons';
-import {
-  ownedDeveloperNFT,
-  unownedDeveloperNFT,
-} from '../../mocks/DeveloperNFT';
+import DevName from './DevName';
+import { OPENSEA_DIRECT_LINK_PREFIX } from '../utils/DeveloperDaoConstants';
+import testCommonLink from '../test-utils';
+import { ownedDeveloperNFT, unownedDeveloperNFT } from '../test-data';
 
 describe('Dev Name button with Owner', () => {
   it('Renders the button with link', () => {

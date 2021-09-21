@@ -10,7 +10,7 @@ import {
   ListItem,
   VStack,
 } from '@chakra-ui/react';
-import { IconOpenSea, IconEtherscan, IconTwitter, IconDiscord } from '../Icons';
+import { IconOpenSea, IconEtherscan, IconTwitter, IconDiscord } from './Icons';
 
 function Footer() {
   const { t } = useTranslation();
